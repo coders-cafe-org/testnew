@@ -1,0 +1,52 @@
+body{
+    margin:0
+}
+
+.menu_bar{
+    position: fixed;
+    background-color: #533322;
+    list-style-type: none;
+    width: 100%;
+    height:6%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu_bar li {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5%;
+}
+.menu_bar li a{
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+}
+.menu_bar li a:hover{
+    color: #18BE84
+}
+
+
+
+#welcome_page{
+    background-color: #533322;
+    width:100%;
+    height:100%;    
+
+}
+#welcome_page img{
+    padding-top: 5%;
+    height:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#welcome_page{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:white
+}
+
